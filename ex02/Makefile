@@ -6,11 +6,11 @@
 #    By: pecavalc <pecavalc@student.42berlin.de>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/06/23 10:43:01 by pecavalc          #+#    #+#              #
-#    Updated: 2026/07/01 15:24:21 by pecavalc         ###   ########.fr        #
+#    Updated: 2026/07/01 23:19:06 by pecavalc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC := main.cpp Array.hpp Array. tpp
+SRC := main.cpp
 OBJ := main.o
 DEP := $(SRC:.cpp=.d)
 

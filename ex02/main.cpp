@@ -1,16 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Array.tpp                                          :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: pecavalc <pecavalc@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/01 15:28:45 by pecavalc          #+#    #+#             */
-/*   Updated: 2026/07/01 15:29:03 by pecavalc         ###   ########.fr       */
+/*   Created: 2026/07/01 15:27:37 by pecavalc          #+#    #+#             */
+/*   Updated: 2026/07/01 23:18:41 by pecavalc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef ARRAY_TPP
-#define ARRAY_TPP
+#include "Array.hpp"
+#include <iostream>
 
-#endif
+int main() {
+
+  return 0;
+}

@@ -6,7 +6,7 @@
 /*   By: pecavalc <pecavalc@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/01 15:28:45 by pecavalc          #+#    #+#             */
-/*   Updated: 2026/07/02 17:00:46 by pecavalc         ###   ########.fr       */
+/*   Updated: 2026/07/02 17:04:56 by pecavalc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,22 @@ Array<T>& Array<T>::operator=(const Array& other) {
 template <typename T>
 Array<T>::~Array() {
   delete[] data_;
+}
+
+template <typename T>
+T& Array<T>::operator[](unsigned int idx) {
+  if (idx >= size_) {
+    throw std::out_of_range("The provided array index is out of bounds")
+  }
+  return data_[idx];
+}
+
+template <typename T>
+const T& Array<T>::operator[](unsigned int idx) const {
+  if (idx >= size_) {
+    throw std::out_of_range("The provided array index is out of bounds")
+  }
+  return data_[idx];
 }
 
 #endif

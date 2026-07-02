@@ -1,5 +1,3 @@
-**** WIP **** 
-
 # 42 C++ Module 07: C++ Templates
 
 This repository contains my solutions for **42 C++ Module 07**, which
